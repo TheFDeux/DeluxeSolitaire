@@ -1,0 +1,186 @@
+<!doctype html>
+<!--
+  ==========================================================================
+  Deluxe Solitaire — page d'assistance
+  Dépose ce fichier à la racine de ton repo GitHub Pages, à côté de privacy.html.
+  Support URL à saisir dans App Store Connect :
+    https://TON-PSEUDO.github.io/TON-REPO/support.html
+
+  À VÉRIFIER : la FAQ « Synchronisation iCloud » décrit une synchro qui
+  s'active dans les réglages de l'app et qui passe par le compte Apple de
+  l'utilisateur. Si chez toi elle est automatique dès que l'utilisateur est
+  connecté à iCloud, adapte la formulation (deux paragraphes concernés).
+  ==========================================================================
+-->
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assistance — Deluxe Solitaire</title>
+<meta name="description" content="Aide, questions fréquentes et contact pour l'application Deluxe Solitaire.">
+<style>
+  :root{
+    --bg:#0b0f1a; --panel:rgba(255,255,255,.04); --line:rgba(255,255,255,.10);
+    --ink:#f2f5ff; --ink-dim:#a8b2cc; --accent:#589eff; --radius:18px;
+    color-scheme:dark;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; padding:0; background:var(--bg); color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  body::before{
+    content:""; position:fixed; inset:0; z-index:-1; pointer-events:none;
+    background:
+      radial-gradient(60% 45% at 15% -5%, rgba(96,54,190,.55), transparent 70%),
+      radial-gradient(55% 40% at 95% 15%, rgba(20,96,130,.45), transparent 70%),
+      linear-gradient(180deg,#1e1442 0%,#121e3e 45%,#080e1a 100%);
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:72px 22px 96px}
+  header{margin-bottom:44px}
+  .eyebrow{
+    display:inline-block; font-size:12px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--accent); font-weight:600; margin-bottom:14px;
+  }
+  h1{font-size:clamp(30px,6vw,42px); line-height:1.15; margin:0 0 10px; letter-spacing:-.02em}
+  .lede{color:var(--ink-dim); font-size:18px; margin:0}
+  h2{font-size:13px; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-dim);
+     font-weight:600; margin:52px 0 18px}
+  .card{
+    background:var(--panel); border:1px solid var(--line); border-radius:var(--radius);
+    padding:24px 26px; margin-bottom:14px;
+  }
+  .card h3{margin:0 0 8px; font-size:17px; font-weight:600}
+  .card p{margin:0; color:var(--ink-dim)}
+  .card p + p{margin-top:10px}
+  .contact{
+    display:flex; flex-wrap:wrap; align-items:center; gap:16px 22px;
+    background:linear-gradient(135deg, rgba(88,158,255,.14), rgba(140,90,230,.10));
+    border:1px solid rgba(88,158,255,.28);
+  }
+  .contact div{flex:1 1 240px}
+  a{color:var(--accent); text-decoration:none; border-bottom:1px solid rgba(88,158,255,.35)}
+  a:hover{border-bottom-color:var(--accent)}
+  .btn{
+    display:inline-block; background:var(--accent); color:#06101f; font-weight:600;
+    padding:12px 22px; border-radius:999px; border:0; white-space:nowrap;
+  }
+  .btn:hover{background:#7bb2ff}
+  ul{margin:10px 0 0; padding-left:20px; color:var(--ink-dim)}
+  li{margin:6px 0}
+  footer{
+    margin-top:64px; padding-top:26px; border-top:1px solid var(--line);
+    color:var(--ink-dim); font-size:14px; display:flex; flex-wrap:wrap; gap:8px 20px;
+    justify-content:space-between;
+  }
+  @media (max-width:520px){ .wrap{padding:52px 18px 72px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <span class="eyebrow">Assistance</span>
+    <h1>Une question sur Deluxe&nbsp;Solitaire&nbsp;?</h1>
+    <p class="lede">Écrivez-moi, je réponds à chaque message.</p>
+  </header>
+
+  <div class="card contact">
+    <div>
+      <h3 style="margin-bottom:4px">Contact</h3>
+      <p>Réponse sous 48&nbsp;heures ouvrées. Précisez votre modèle d'iPhone et la version d'iOS pour un bug.</p>
+    </div>
+    <a class="btn" href="mailto:gabf.compte@gmail.com">gabf.compte@gmail.com</a>
+  </div>
+
+  <h2>Questions fréquentes</h2>
+
+  <div class="card">
+    <h3>Comment on joue&nbsp;?</h3>
+    <p>C'est un solitaire Klondike classique. Montez les quatre familles de l'As au Roi dans les emplacements du haut, en réorganisant les colonnes par couleurs alternées et en ordre décroissant. Faites glisser une carte, ou touchez-la deux fois pour l'envoyer automatiquement vers sa famille.</p>
+  </div>
+
+  <div class="card">
+    <h3>Tirage à 1 ou 3 cartes&nbsp;?</h3>
+    <p>Les deux, au choix, dans <em>Menu → Réglages → Tirage</em>. Le tirage à 1 carte rend les donnes nettement plus faciles&nbsp;: il rapporte donc une part réduite de l'expérience.</p>
+  </div>
+
+  <div class="card">
+    <h3>Comment débloquer les thèmes et les dos de cartes&nbsp;?</h3>
+    <p>En jouant. Chaque partie rapporte de l'expérience et fait monter de niveau&nbsp;; chaque cosmétique s'ouvre au niveau indiqué sur sa vignette. Une partie abandonnée compte comme une défaite, mais rapporte quand même de l'expérience au prorata des cartes déjà montées aux fondations.</p>
+    <p>Les cosmétiques marqués «&nbsp;Événement&nbsp;» ne s'obtiennent que pendant l'événement correspondant.</p>
+  </div>
+
+  <h2>Synchronisation iCloud</h2>
+
+  <div class="card">
+    <h3>Retrouver sa progression sur un autre appareil</h3>
+    <p>Activez la synchronisation iCloud dans les réglages de l'app, sur chacun de vos appareils. Ils doivent être connectés au <strong>même compte Apple</strong>, avec iCloud Drive activé et une connexion internet disponible.</p>
+    <p>Une fois en place, niveau, expérience, cosmétiques débloqués, statistiques et réglages suivent d'un appareil à l'autre. La synchronisation se fait en arrière-plan&nbsp;: comptez quelques secondes, et rouvrez l'app si l'autre appareil affiche encore d'anciennes valeurs.</p>
+  </div>
+
+  <div class="card">
+    <h3>La synchronisation ne se fait pas</h3>
+    <p>Dans l'ordre&nbsp;: vérifiez que les deux appareils utilisent bien le même compte Apple, que <em>Réglages iOS → [votre nom] → iCloud</em> autorise Deluxe Solitaire, qu'il reste de l'espace de stockage iCloud disponible, et que le mode Économie de données ou un VPN ne bloque pas la connexion. Fermez puis rouvrez l'app pour forcer un échange.</p>
+    <p>Si le problème persiste, écrivez-moi&nbsp;: indiquez les deux modèles d'appareils concernés et la version de l'app.</p>
+  </div>
+
+  <div class="card">
+    <h3>Jouer sans iCloud</h3>
+    <p>C'est possible et sans perte de fonctionnalité&nbsp;: laissez la synchronisation désactivée et tout reste sur l'appareil. Aucun compte n'est à créer dans les deux cas — l'app n'a pas d'inscription.</p>
+  </div>
+
+  <div class="card">
+    <h3>Mes statistiques ont disparu</h3>
+    <p>Si la synchronisation iCloud était active, reconnectez-vous au même compte Apple et rouvrez l'app&nbsp;: la progression est récupérée depuis iCloud.</p>
+    <p>Sans synchronisation, la progression est enregistrée sur l'appareil uniquement. Elle se perd donc si vous supprimez l'app, si vous effacez ses données ou si vous changez d'appareil.</p>
+  </div>
+
+  <h2>Jeu et réglages</h2>
+
+  <div class="card">
+    <h3>La partie est bloquée</h3>
+    <p><em>Indice</em> propose un coup jouable, <em>Annuler</em> revient en arrière autant de fois que nécessaire. Si aucun coup n'existe, <em>Nouvelle</em> lance une donne fraîche.</p>
+  </div>
+
+  <div class="card">
+    <h3>Comment effacer mes données&nbsp;?</h3>
+    <p>Dans <em>Menu → Réglages → Effacer les statistiques</em>. L'opération est irréversible, et se propage à vos autres appareils si la synchronisation iCloud est active.</p>
+    <p>Pour retirer aussi la copie stockée dans iCloud&nbsp;: <em>Réglages iOS → [votre nom] → iCloud → Gérer le stockage du compte</em>, puis sélectionnez Deluxe Solitaire. Supprimer l'app efface ce qu'elle avait enregistré sur l'appareil, mais pas la copie iCloud.</p>
+  </div>
+
+  <div class="card">
+    <h3>Droitier ou gaucher</h3>
+    <p><em>Menu → Réglages → Main</em> place la pioche du bon côté de l'écran. L'option <em>Éventail étalé</em> répartit les colonnes sur toute la hauteur, et les vibrations se désactivent au même endroit.</p>
+  </div>
+
+  <div class="card">
+    <h3>Signaler un bug ou proposer une idée</h3>
+    <p>Un e-mail suffit. Pour un bug, ce qui aide le plus&nbsp;:</p>
+    <ul>
+      <li>le modèle d'iPhone et la version d'iOS,</li>
+      <li>la version de l'app (affichée en bas de l'écran Réglages),</li>
+      <li>ce que vous faisiez juste avant, et une capture d'écran si possible.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Remboursement</h3>
+    <p>Les achats passent par Apple, pas par moi&nbsp;: les demandes se font sur <a href="https://reportaproblem.apple.com" rel="noopener">reportaproblem.apple.com</a>. Écrivez-moi quand même si quelque chose ne fonctionne pas, il y a souvent une solution.</p>
+  </div>
+
+  <h2>Confidentialité</h2>
+  <div class="card">
+    <h3>Pas de publicité, pas de traceur</h3>
+    <p>Aucune donnée n'est collectée par l'éditeur&nbsp;: pas de compte, pas de publicité, pas de mesure d'audience. La synchronisation, quand elle est activée, passe par votre propre espace iCloud, auquel je n'ai pas accès. Le détail est sur la <a href="privacy.html">politique de confidentialité</a>.</p>
+  </div>
+
+  <footer>
+    <span>Deluxe Solitaire</span>
+    <span><a href="privacy.html">Confidentialité</a></span>
+  </footer>
+
+</div>
+</body>
+</html>
